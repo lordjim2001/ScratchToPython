@@ -1,0 +1,2 @@
+RealAge = int(input("Enter your dog's true age in years: "))
+print("Your dog is " + str(RealAge * 7) + " in dog years.")
