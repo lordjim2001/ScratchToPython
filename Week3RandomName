@@ -1,0 +1,5 @@
+from random import choice
+
+names = "Alice,Bob,Carol,Chuck,Craig,Dan,Erin,Eve,Fay,Frank,Grace,Heidi,Judy,Mallory,Olivia,Oscar,Peggy,Sybil,Trent,Trudy,Victor,Walter"
+StudentList = names.split(',')
+print(choice(StudentList))
