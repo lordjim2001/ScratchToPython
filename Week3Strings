@@ -1,0 +1,22 @@
+verse = """
+The wheels on the bus go round and round,
+Round and round, round and round,
+The wheels on the bus go round and round,
+All day long.
+"""
+
+verse_1a = verse.replace('wheels','horn')
+verse_1b = verse_1a.replace('Round and round', 'Beep, beep, beep')
+verse_2 = verse_1b.replace('round and round', 'beep, beep, beep')
+verse_2a = verse_2.replace('horn','wipers')
+verse_2b = verse_2a.replace('Beep, beep, beep', 'Swish, swish, swish')
+verse_3 = verse_2b.replace('beep, beep, beep', 'swish, swish, swish')
+verse_3a = verse_3.replace('wipers', 'people')
+verse_3b = verse_3a.replace('Swish, swish, swish', 'Up and down')
+verse_4 = verse_3b.replace('swish, swish, swish', 'up and down')
+
+
+print(verse)
+print(verse_2)
+print(verse_3)
+print(verse_4)
