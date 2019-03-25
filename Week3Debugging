@@ -6,7 +6,7 @@ for person in range(len(names)): #Error01, original missing :
     age = ages[person]  #Error02, original "age = ages(person)"
     name = names[person]
     year_of_birth = current_year - age
-    print(str(name) + ' was born in ' + str(year_of_birth)) #Error03, year_of_birth needs to be converted to a string
+    print(name + ' was born in ' + str(year_of_birth)) #Error03, year_of_birth needs to be converted to a string
 
 #Error04, 'name' displayed instead of value of name, should be str(name)
 #Error05, year_of_birth is a negative number, year_of_birth = age - current_year, should be year_of_birth = current_year - age.
